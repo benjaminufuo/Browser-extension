@@ -42,7 +42,7 @@ const App = () => {
       description:
         "Optimizes browser resource usage to accelerate page loading.",
       toggle: false,
-      status: "Active",
+      status: "Inactive",
     },
     {
       img: jsonwizard,
@@ -65,7 +65,7 @@ const App = () => {
       description:
         "Simulates various screen resolutions directly within the browser.",
       toggle: false,
-      status: "Active",
+      status: "Inactive",
     },
     {
       img: Markupnotes,
@@ -102,7 +102,7 @@ const App = () => {
       title: "DOM Snapshot",
       description: "Capture and export DOM structures quickly.",
       toggle: false,
-      status: "Active",
+      status: "Inactive",
     },
     {
       img: ConsolePlus,
@@ -110,7 +110,7 @@ const App = () => {
       description:
         "Enhanced developer console with advanced filtering and logging. ",
       toggle: false,
-      status: "Inactive",
+      status: "Acctive",
     },
   ]);
   const handleCardToggle = (title) => {
